@@ -1,13 +1,12 @@
-def sort(string)
-  ""
+def sort(array)
+  array
 end
 
 
 describe "sorting" do
 
-  it "returns a string" do
-    info = ""
-    expect(sort(info)).to be_a(String)
+  it "returns an array" do
+    array = []
+    expect(sort(array)).to be_a(Array)
   end
-
 end
